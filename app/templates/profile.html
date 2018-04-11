@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}" type="text/css" />
+{% endblock %}
+
+{% block main  %}
+<div>
+  <img id="pic" src="{{ url_for('static', filename='img/S2k.jpg') }}"/>
+  <div id="main">
+
+  <br><br>
+    <div class="name" >
+    <p>Sunil Tolan</p>
+  </div>
+  <div id="border">
+    <p>Todays date: {{time}}</p>
+  </div>
+  <div id="border">
+    <p>USERNAME: Overclock07<br>
+      Location: Jamaica<br>
+      Date joined : {{date_joined}}<br>
+      Bio: Determined young man who seeks to make the world a better place<br>
+      Post: 500<br>
+      Followers: 1600<br>
+      Following: 100<br>
+      <button>Follow</button>
+    </p>
+    </div>
+    </div>
+</div>
+{% endblock %}

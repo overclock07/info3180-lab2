@@ -1,0 +1,21 @@
+
+  .name
+  {
+    border: solid;
+    width: 400;
+    background-color: grey;
+  }
+  #border
+  {
+    border: solid;
+    width: 250;
+    background-color: grey;
+  }
+  #main
+  {
+    float: left;     
+  }
+  #pic
+  {
+    float: right;
+  }
